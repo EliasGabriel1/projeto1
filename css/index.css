@@ -1,0 +1,83 @@
+body {
+    background-image: url(../images/bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+
+header,
+footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+
+.block2 {
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block1,
+.block3 {
+    display: flex;
+    justify-content: center;
+}
+
+.block1 picture,
+.block3 picture img{
+    max-width: 6vw;
+    display: flex;
+    justify-content: center;
+}
+
+.block3 picture{
+    display: flex;
+    justify-content: center;
+}
+
+.group-input input {
+    border: none;
+    border-width: 0;
+    border-color: transparent;
+    padding-left: 10px;
+    background-color: transparent;
+}
+
+.group-input picture>img {
+    border-right: 3px solid #a7c7e4;
+    padding-right: 10px;
+}
+
+.group-input {
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid #a7c7e4;
+    border-radius: 50px;
+    width: 250px;
+    padding: 15px;
+}
+
+.group-input picture img {
+    max-width: 60px;
+    min-width: 30px;
+}
+
+.boxInput {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 23px;
+    align-items: center;
+}

@@ -1,0 +1,158 @@
+body {
+    background-image: url(../images/layout_MVP_tabi2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+}
+
+.block-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.block-menu-social {
+    content: "";
+    width: 100px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.block-menu-estilo-de-vida {
+    content: "";
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 187px;
+}
+
+.block-menu-financeiro {
+    content: "";
+    width: 170px;
+    height: 60px;
+    margin-top: 30px;
+    margin-right: 60px;
+}
+
+.block-menu-analytics {
+    content: "";
+    width: 100px;
+    height: 50px;
+    margin-left: 187px;
+    margin-top: 30px;
+}
+
+.block-menu-my-data {
+    content: "";
+    width: 100px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+
+.box-social {
+    background-image: url(../images/page2bg4.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 18px;
+}
+
+.box-financeiro {
+    background-image: url(../images/page2bg3.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 18px;
+}
+
+.my-data {
+    background-image: url(../images/page2bg2.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 18px;
+}
+
+.estilo-de-vida {
+    background-image: url(../images/page2bg5.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: right;
+    padding-right: 18px;
+}
+
+.analytics {
+    background-image: url(../images/page2bg1.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: right;
+    padding-right: 18px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.block1 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.block2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7vh;
+}
+
+.block3 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0;
+}
+
+.box-block2>div {
+    width: 18vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 205px;
+    min-width: 385px;
+}
+
+.box-block2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+header,
+footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.block1 picture img {
+    max-width: 150px;
+}
+
+.block3 picture img {
+    max-width: 100px;
+}
+
+.gap {
+    gap: 50px;
+    justify-content: unset;
+}
