@@ -1,12 +1,15 @@
-body{
+body {
     background-image: url(../images/analitycs-bg.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
     height: 100vh;
+    margin: 0 auto;
+    max-width: 76vw;
+    max-height: 926px;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -14,35 +17,35 @@ body{
 }
 
 
-header>p{
-    margin-top: 15vh;
-    margin-left: 7vh;
+header>p {
+    margin-top: 11%;
+    margin-left: 6.5%;
 }
 
-header{
+header {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
 }
 
-footer{
+footer {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
 }
 
 
-.content{
+.content {
     display: flex;
     flex-direction: column;
     gap: 4vh;
 }
 
-.content picture{
+.content picture {
     position: relative;
 }
 
-.content picture>span{
+.content picture>span {
     position: absolute;
     top: 35px;
     text-align: center;
@@ -51,7 +54,7 @@ footer{
     font-size: 13px;
 }
 
-.content picture>p.title{
+.content picture>p.title {
     position: absolute;
     top: 12px;
     text-align: center;
@@ -59,19 +62,19 @@ footer{
     font-size: 12px;
 }
 
-.content picture>img{
+.content picture>img {
     max-width: 70px;
 }
 
-.red>span{
+.red>span {
     color: #ff3131;
 }
 
-.yellow>span{
+.yellow>span {
     color: #ffb604;
 }
 
-.green>span{
+.green>span {
     color: #0acd44;
 }
 
@@ -93,10 +96,25 @@ footer{
 
 
 header picture img,
-footer picture img{
+footer picture img {
     max-width: 100px;
 }
 
-a{
+a {
     opacity: 0;
+}
+
+
+@media screen and (max-width: 1500px) {
+
+    body,
+    .container {
+        max-width: 69vw !important;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    body {
+        max-width: 1300px !important;
+    }
 }

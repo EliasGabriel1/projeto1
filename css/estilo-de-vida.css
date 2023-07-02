@@ -4,6 +4,9 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
     height: 100vh;
+    margin: 0 auto;
+    max-width: 76vw;
+    max-height: 926px;
 }
 
 .container{
@@ -15,8 +18,8 @@ body{
 
 
 header>p{
-    margin-top: 13vh;
-    margin-left: 5.5vh;
+    margin-top: 10%;
+    margin-left: 4.5%;
 }
 
 header{
@@ -101,3 +104,17 @@ footer picture img{
 a{
     opacity: 0;
 }
+
+
+@media screen and (max-width: 1500px) {
+    body,.container {
+      max-width: 69vw !important;
+    }
+  }
+  
+  @media screen and (min-width: 1500px) {
+    body {
+      max-width: 1300px !important;
+    }
+  }
+  

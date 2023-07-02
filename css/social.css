@@ -4,6 +4,9 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     height: 100vh;
+    margin: 0 auto;
+    max-width: 76vw;
+    max-height: 926px;
 }
 
 .container {
@@ -14,8 +17,8 @@ body {
 }
 
 header>p {
-    margin-top: 15vh;
-    margin-left: 8.5vh;
+    margin-top: 11%;
+    margin-left: 6.5%;
 }
 
 header {
@@ -102,3 +105,17 @@ a {
     display: flex;
     flex-direction: column;
 }
+
+
+@media screen and (max-width: 1500px) {
+    body,.container {
+      max-width: 69vw !important;
+    }
+  }
+  
+  @media screen and (min-width: 1500px) {
+    body {
+      max-width: 1300px !important;
+    }
+  }
+  
