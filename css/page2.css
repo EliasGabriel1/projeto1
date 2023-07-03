@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/layout_MVP_tabi2.jpg);
+    background-image: url(../images/bg-page2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -18,7 +18,7 @@ body {
     content: "";
     width: 100px;
     height: 60px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .block-menu-estilo-de-vida {
@@ -42,14 +42,14 @@ body {
     width: 100px;
     height: 50px;
     margin-left: 187px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 .block-menu-my-data {
     content: "";
     width: 100px;
     height: 50px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 
