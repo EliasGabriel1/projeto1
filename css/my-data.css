@@ -108,23 +108,11 @@ body .container {
 }
 
 
-@media (max-height: 650px) {
-    body {
-        max-height: 620px;
-    }
-
-    body,
-    .container {
-        max-width: 62vw !important;
-    }
-
-}
-
 @media screen and (max-width: 1500px) {
 
     body,
     .container {
-        max-width: 71vw !important;
+        max-width: 59vw !important;
     }
 
     .content picture>span {
@@ -146,4 +134,17 @@ body .container {
     body {
         max-width: 1300px !important;
     }
+}
+
+
+@media (max-height: 650px) {
+    body {
+        max-height: 620px;
+    }
+
+    body,
+    .container {
+        max-width: 62vw !important;
+    }
+
 }
