@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/analitycs-bg.png);
+    background-image: url(../images/analitycs-bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -47,23 +47,23 @@ footer {
 
 .content picture>span {
     position: absolute;
-    top: 35px;
+    top: 50px;
     text-align: center;
-    width: 70px;
+    width: 100px;
     font-family: 'Orbitron', sans-serif;
     font-size: 13px;
 }
 
 .content picture>p.title {
     position: absolute;
-    top: 12px;
+    top: 30px;
     text-align: center;
-    width: 70px;
+    width: 100px;
     font-size: 12px;
 }
 
 .content picture>img {
-    max-width: 70px;
+    max-width: 100px;
 }
 
 .red>span {
@@ -105,11 +105,30 @@ a {
 }
 
 
+body .container{
+    max-width: 71vw;    
+}
+
+
 @media screen and (max-width: 1500px) {
 
     body,
     .container {
-        max-width: 69vw !important;
+        max-width: 71vw !important;
+    }
+
+    .content picture>span {
+        top: 36px;
+        width: 72px;
+    }
+
+    .content picture>p.title {
+        top: 20px;
+        width: 72px;
+    }
+
+    .content picture>img{
+        max-width: 70px;
     }
 }
 
